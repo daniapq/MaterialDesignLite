@@ -52,7 +52,7 @@ BaselineOfMaterialDesignLite >> fileLibraryHelper: spec [
 
 	spec
 		baseline: 'FileLibraryHelper'
-		with: [ spec repository: 'github://daniapq/FileLibraryHelper:v1.x.x/src' ]
+		with: [ spec repository: 'github://jecisc/FileLibraryHelper:v1.x.x/src' ]
 ]
 
 { #category : #dependencies }
@@ -84,7 +84,7 @@ BaselineOfMaterialDesignLite >> seaside3: spec [
 		baseline: 'Seaside3'
 		with: [ spec
 				loads: #('Core' 'JQuery' 'Zinc');
-				repository: 'github://SeasideSt/Seaside:v3.3.x/repository' ]
+				repository: 'github://SeasideSt/Seaside:v3.4.x/repository' ]
 ]
 
 { #category : #dependencies }
